@@ -1,0 +1,81 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: times, arial, serif;
+  background-color: rgb(250, 250, 252);
+}
+main,
+header,
+footer {
+  /* background-color: cyan; */
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: rgb(77, 125, 230);
+  color: white;
+}
+div.site-title,
+div.site-description {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px 0 10px 0;
+}
+div.site-title {
+  font-size: 3.5em;
+}
+div.site-description {
+  font-size: 1.5em;
+}
+div.page-header,
+article {
+  background-color: rgb(129, 214, 230);
+  margin: 0;
+  padding: 10px;
+}
+h2.page-header_heading {
+  margin: 0;
+  text-align: center;
+}
+
+main div p {
+  line-height: 1.2em;
+  letter-spacing: 1.2px;
+}
+.main-navigation ul {
+  margin: 0;
+  padding: 3em 0 0 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: khaki;
+  color: black;
+}
+
+.main-navigation ul a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: inherit;
+}
+
+article.backpackDetails {
+  overflow: hidden;
+}
+article figure.backpackImage {
+  float: left;
+  margin-right: 20px;
+}
+article ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding: 0 0 10px 0;
+  text-transform: capitalize;
+}

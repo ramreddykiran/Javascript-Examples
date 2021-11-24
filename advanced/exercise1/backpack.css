@@ -1,0 +1,78 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: times, arial, serif;
+  background-color: rgb(250, 250, 252);
+}
+
+.mainContent,
+header,
+footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: rgb(77, 125, 230);
+  color: white;
+}
+
+div.site-title,
+div.site-description {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px 0 10px 0;
+}
+
+div.site-title {
+  font-size: 3.5em;
+}
+div.site-description {
+  font-size: 1.5em;
+}
+
+div.page-header,
+article {
+  background-color: rgb(129, 214, 230);
+  margin: 0;
+  padding: 10px;
+}
+
+h2.page-header_heading {
+  margin: 0;
+  text-align: center;
+}
+
+main div p {
+  line-height: 1.2em;
+  letter-spacing: 1.2px;
+}
+
+article.backpack {
+  margin: 0 auto;
+  overflow: hidden;
+  border-bottom: 1px dashed #343434;
+  padding-bottom: 20px 0;
+}
+article.backpack:last-of-type {
+  border-bottom: none;
+}
+
+article figure.backpack_image {
+  float: left;
+  margin-right: 20px;
+}
+
+article ul {
+  list-style-type: none;
+}
+
+article ul li {
+  padding: 0 0 10px 0;
+  text-transform: capitalize;
+}

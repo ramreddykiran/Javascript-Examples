@@ -14,7 +14,7 @@ let meeting = {
     scheduled: 5,
     attended: 3,
 
-    summary: function() {
+    summary: ()=> {
         console.log(`meetings scheduled on ${this.day} are ${this.scheduled}`);
         console.log(`meetings attended on ${this.day} are ${this.attended}`);
     }

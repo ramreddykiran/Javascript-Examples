@@ -50,7 +50,7 @@ for (const [key, value] of fruits) {
 }
 
 console.log("fruits price using forEach loop");
-fruits.forEach((value, key) => {
+fruits.forEach((value, key) => {                 // In forEach loop on Map object, (value, key) will be the order 
     console.log(`${key} price = ${value.price}`);
 })
 
